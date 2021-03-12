@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+		"start": "node index.js"
   },
   "author": "Ryan Curtis <ryan.curtis88@gmail.com> (https://github.com/semperry)",
   "license": "ISC",
