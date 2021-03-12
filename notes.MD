@@ -6,8 +6,11 @@
 - ### Redis
 - Redis is a NoSql Key Value Pair Store. It is incredibly fast and for that reason, will handle our data caching.
 - We will use the "redis" npm package to give us a nice api that will make communicating with a redis db much easier.
+- When pushed to Heroku, we'll add-on "Heroku Redis".
 - ### Express
   - Express is a framework for nodejs that gives us a programmatic solution to creating web based applications. It will handle our routing.
+- ### Cors Middleware
+  - CORS - Cross Origin Resource Sharing. We'll use the npm 'cors' package to manage cross origin requests (microservice applications)
 - ### SWAPI - The Star Wars API
   - We are using this express project as a proxy server to query data from SWAPI.
   - https://www.swapi.tech
